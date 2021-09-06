@@ -1,0 +1,18 @@
+﻿<Window x:Class="idea_management_system.ReportWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:idea_management_system"
+        mc:Ignorable="d"
+        Title="Report An Issue" Height="500" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+
+        <TextBox x:Name="TitleTextBox" HorizontalAlignment="Left" Height="19" Margin="47,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" BorderThickness="2"/>
+        <Label Content="Title" HorizontalAlignment="Left" Margin="47,10,0,0" VerticalAlignment="Top" Width="300" FontWeight="Bold"/>
+        <Label Content="Report" HorizontalAlignment="Left" Margin="47,59,0,0" VerticalAlignment="Top" Width="300" FontWeight="Bold"/>
+        <Button x:Name="ReportButton" Content="Report" HorizontalAlignment="Left" Margin="272,402,0,0" VerticalAlignment="Top" Width="75" Background="LightCoral" Click="ReportButton_Click"/>
+        <TextBox x:Name="ReportTextBox" HorizontalAlignment="Left" Height="300" Margin="47,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" BorderThickness="2"/>
+
+    </Grid>
+</Window>

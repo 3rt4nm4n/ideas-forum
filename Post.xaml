@@ -1,0 +1,19 @@
+﻿<Window x:Class="idea_management_system.Post"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:idea_management_system"
+        mc:Ignorable="d"
+        Title="Post" Height="500" Width="968" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <TextBox x:Name="PostTextBox" HorizontalAlignment="Left" Height="221" Margin="160,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="779" IsReadOnly="True" VerticalScrollBarVisibility="Visible"/>
+        <Button x:Name="ReportButton" Click="ReportButton_Click" Content="Report" HorizontalAlignment="Left" Margin="20,80,0,0" VerticalAlignment="Top" Width="121" Background="LightCoral" />
+        <Label x:Name="TitleLabel" Content="Title" FontWeight="Bold" HorizontalAlignment="Left" Margin="160,40,0,0" VerticalAlignment="Top" Width="779"/>
+        <Button x:Name="BackButton" Click="BackButton_Click" Content="Back" Background="FloralWhite" HorizontalAlignment="Left" Margin="20,120,0,0" VerticalAlignment="Top" Width="121"/>
+        <Button x:Name="CommentButton" Click="CommentButton_Click" Background="LightBlue" Content="Comment" HorizontalAlignment="Left" Margin="160,441,0,0" VerticalAlignment="Top" Width="100"/>
+        
+        <Label x:Name="AuthLabel" Content="Author" HorizontalAlignment="Left" Margin="160,14,0,0" VerticalAlignment="Top" Width="779"/>
+        <TextBox x:Name="CommentTextBox" HorizontalAlignment="Left" Height="100" Margin="160,321,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="779"/>
+    </Grid>
+</Window>

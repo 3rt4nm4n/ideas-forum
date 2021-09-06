@@ -1,0 +1,36 @@
+﻿<Window x:Class="idea_management_system.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:idea_management_system"
+        mc:Ignorable="d"
+        Title="Settings" Height="500" Width="968" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Image Margin="10,20,820.6,403.4" Source="Ideas.png" Stretch="Fill"/>
+        <Button x:Name="PersonalInfoButton" Content="Change Personal Information" HorizontalAlignment="Left" Margin="20,80,0,0" VerticalAlignment="Top" Width="160" Background="FloralWhite" Click="PersonalInfoButton_Click"/>
+        <Button x:Name="AccountDetailsButton" Content="Change Account Details" HorizontalAlignment="Left" Margin="20,120,0,0" VerticalAlignment="Top" Width="160" Background="FloralWhite" Click="AccountDetailsButton_Click"/>
+        <Button x:Name="DeleteAccButton" Content="Delete Account" Margin="20,160,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="160" Height="19" Background="LightCoral" Click="DeleteAccButton_Click"/>
+        <Button x:Name="BackToHomePageButton" Content="Back to Home Page" HorizontalAlignment="Left" Margin="20,200,0,0" VerticalAlignment="Top" Width="160" Background="LightGray" Click="BackToHomePageButton_Click"/>
+
+        <Label Content="Username" HorizontalAlignment="Left" Margin="219,80,0,0" VerticalAlignment="Top" Width="70" FontWeight="Bold"/>
+        <Label Content="First Name" HorizontalAlignment="Left" Margin="219,120,0,0" VerticalAlignment="Top" Width="70" FontWeight="Bold"/>
+        <Label Content="Surname" HorizontalAlignment="Left" Margin="219,160,0,0" VerticalAlignment="Top" Width="70" FontWeight="Bold"/>
+        <Label Content="E-Mail" HorizontalAlignment="Left" Margin="219,200,0,0" VerticalAlignment="Top" Width="70" FontWeight="Bold"/>
+        <Label Content="Date of Birth" HorizontalAlignment="Left" Margin="219,240,0,0" VerticalAlignment="Top" Width="84" FontWeight="Bold"/>
+        <Label Content="Country" HorizontalAlignment="Left" Margin="219,280,0,0" VerticalAlignment="Top" Width="70" FontWeight="Bold"/>
+        <Label Content="Language" HorizontalAlignment="Left" Margin="219,320,0,0" VerticalAlignment="Top" Width="70" FontWeight="Bold"/>
+        <Label x:Name="UsrnLabel" Content="USRN" HorizontalAlignment="Left" Margin="322,80,0,0" VerticalAlignment="Top" Width="70"/>
+        <Label x:Name="FnLabel" Content="FN" HorizontalAlignment="Left" Margin="322,120,0,0" VerticalAlignment="Top" Width="70"/>
+        <Label x:Name="LnLabel" Content="LN" HorizontalAlignment="Left" Margin="322,160,0,0" VerticalAlignment="Top" Width="70"/>
+        <Label x:Name="EmailLabel" Content="EM" HorizontalAlignment="Left" Margin="322,200,0,0" VerticalAlignment="Top" Width="250"/>
+        <Label x:Name="DOBLabel" Content="DOB" HorizontalAlignment="Left" Margin="322,240,0,0" VerticalAlignment="Top" Width="96"/>
+        <Label x:Name="CountryLabel" Content="C" HorizontalAlignment="Left" Margin="322,280,0,0" VerticalAlignment="Top" Width="70"/>
+        <Label x:Name="LanguageLabel" Content="LANG" HorizontalAlignment="Left" Margin="322,320,0,0" VerticalAlignment="Top" Width="70"/>
+        <Label Content="Score" FontWeight="Bold" HorizontalAlignment="Left" Margin="434,80,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ScoreLabel" Content="Scr" HorizontalAlignment="Left" Margin="537,80,0,0" VerticalAlignment="Top"/>
+        <Label Content="Posts" FontWeight="Bold" HorizontalAlignment="Left" Margin="435,120,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="NumberOfPostsLabel" Content="Pst" HorizontalAlignment="Left" Margin="525,117,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
